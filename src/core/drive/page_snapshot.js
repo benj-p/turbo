@@ -25,7 +25,7 @@ export class PageSnapshot extends Snapshot {
   clone() {
     const clonedElement = this.element.cloneNode(true)
 
-    console.log(clonedElement)
+    // console.log(clonedElement)
 
     const selectElements = this.element.querySelectorAll("select")
     const clonedSelectElements = clonedElement.querySelectorAll("select")
